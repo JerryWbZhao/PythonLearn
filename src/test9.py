@@ -11,7 +11,7 @@ browser = webdriver.Chrome(chromedriver)
 
 browser.get("https://www.baidu.com")
 print (browser.title)
-time.sleep(1)
+time.sleep(3)
 
 #id = cp 元素的文本信息
 data=browser.find_element_by_id("cp").text.replace(u'\xa9', u'©')
